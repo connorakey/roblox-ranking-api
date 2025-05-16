@@ -1,0 +1,19 @@
+{
+  "name": "fluxara-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "connorakey",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "noblox.js": "^6.2.0",
+    "path-to-regexp": "^8.2.0"
+  }
+}
