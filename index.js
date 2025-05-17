@@ -5,8 +5,6 @@ const noblox = require('noblox.js');
 const PORT = 8000;
 
 // TODO LIST
-// ADD RETURN BEFORE EACH res.status TO STOP CODE EXECUTION AFTER THAT TO PREVENT ERRORS
-// Finish Group-Management
 // Finish Free Section
 // Reset Tokens Each Month
 // Create an API for token management (to check how many tokens are left, when tokens reset)
@@ -25,7 +23,6 @@ const { changeRank } = require('./functions/actions/role-management/changeRank')
 const { shoutMessage } = require('./functions/actions/group-management/shout');
 const { deleteWallPost } = require('./functions/actions/group-management/deleteWallPost');
 const { deleteWallPostByUser } = require('./functions/actions/group-management/deleteWallPostByUser');
-
 
 // Within /functions/database
 const { apikeyValid, deductToken, checkApiTokens } = require('./functions/database/mongodb');
