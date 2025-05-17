@@ -2,8 +2,6 @@ const express = require('express');
 const app = express();
 const noblox = require('noblox.js');
 
-const PORT = 8000;
-
 // TODO LIST
 // Finish Free Section
 // Reset Tokens Each Month
@@ -11,6 +9,8 @@ const PORT = 8000;
 // Find out how to make a website for this with login using the database created with MongoDB
 
 require('dotenv').config();
+
+const PORT = process.env.PORT
 
 // Constant Variables of Modules from files in /functions/role-management
 const { promoteUser } = require('./functions/actions/role-management/promote');
